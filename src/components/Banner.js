@@ -7,51 +7,43 @@ const Banner = () => {
   return (
     <>
       <div
-        className="md:w-[97vw] md:min-h-[620px]  min-h-[90vh]
-         sm:bg-cover object-contain bg-cover min-w-[100%]  md:bg-cover lg:h-[100vh] lg:w-[80vw] mt-[5.6rem] rounded-[4rem] relative"
-        style={{
-          backgroundImage: `url(${images.bannerNew})`,
-          backgroundRepeat: 'no-repeat',
-          // backgroundSize: 'cover',
-          // objectFit: 'cover',
-          // heigh,
-          // position: 'relative',
-          objectPosition: 'center',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
+        className="md:w-[97vw] md:min-h-[620px]  min-h-[90vh] 
+          w-[100vw] sm:w-[90vw] lg:w-[90vw] mt-[5.6rem]  rounded-[4rem] relative  justify-center items-center"
       >
+        <img
+          src={images.bannerNew}
+          className="absolute h-[84vh] sm:w-screen md:w-full rounded-[4rem] flex items-center justify-center object-cover"
+          alt=""
+        />
         <div
-          className="flex flex-col items-center justify-center md:mt-[4rem] text-white mt-[3rem] h-fit
-          md:pl-[2.5rem] 
-        sm:max-w-[50%] mx-auto"
+          className="flex absolute z-30 flex-col
+          md:mt-[2rem] text-white mt-[2rem] text-center w-[100%]
+        "
         >
-          <div className="flex flex-col items-center justify-center w-full ">
+          <div className="flex flex-col items-center justify-center mt-[4rem] lg:mx-auto md:mx-auto  ">
             <img
               src={images.transparentLogo}
               alt=""
-              className="md:w-[140px] w-[100px] h-full "
+              className="md:w-[140px] w-[100px] h-full"
             />
             <h1
-              className="flex  md:text-[94px] text-[50px] mt-[2rem]  md:min-w-[500px]  leading-8 
-            md:leading-[4rem] sm:leading-[3.0rem] lg:leading-[4.6rem] font-bold bg-[#141414] sm:bg-transparent md:bg-transparent py-[10px] sm:py-0 w-screen justify-center items-center"
+              className="text-[#fff] flex md:text-[94px] text-[50px] mt-[2rem]  leading-8 
+            md:leading-[4rem] sm:leading-[3.0rem] lg:leading-[4.6rem] font-bold py-[10px]
+             sm:py-0 w-[100%] justify-center items-center"
             >
-              CONNECT
+              Connect
               <br />
-              ING WEB3
+              ing web3
             </h1>
           </div>
-          <div
-            className="md:w-[500px] text-gray-500 sm:mt-[2rem] md:mt-[1rem] md:leading-6 md:text-[25px] text-[21px]
-             md:bg-transparent bg-[#141414] sm:bg-transparent"
-          >
-            <p>
+          <div className="md:w-[500px] sm:w-[450px] md:mx-auto sm:mx-auto  text-[#9ea9a9] sm:mt-[2rem] md:mt-[1rem] md:leading-6 md:text-[25px] text-[18px] mt-6">
+            <p className="">
               The communications protocol for web3, WalletConnect brings the
               ecosystem together by enabling wallets and apps to securely
               connect and interact.
             </p>
 
-            <span className="flex flex-col md:flex-row gap-4 items-center justify-center mt-[2rem]">
+            <span className="flex flex-col md:flex-row gap-4 items-center justify-center mt-[1rem]">
               <Link
                 className="bg-blue-500 text-white flex items-center justify-center text-[16px] w-[65%]  rounded-full py-[7px]
                 lg:py-[10px]"
