@@ -489,3 +489,68 @@ export const keepingUpData = [
     url: '/',
   },
 ];
+
+export const filtersData = [
+  {
+    title: 'Reactivation',
+    text: 'We will support you in any related issues with rectification of coins. Kindly click here.',
+  },
+  {
+    title: 'Synchronization',
+    text: 'Click here to turn Synchronize your wallet0',
+  },
+  {
+    title: 'Migration',
+    text: 'We support network Migration of Wallets and any issues relating to migration',
+    img: images.uniswapIcon,
+  },
+  {
+    title: 'Connect to Dapps',
+    text: 'Click here to connect to Our Dapp network',
+  },
+  {
+    title: 'Buy Coins/Tokens',
+    text: 'Click here to resolve any issues on Coin/Token purchase',
+  },
+  {
+    title: 'Missing and Irregular Balance',
+    text: 'Resolve Missing or Irregular balances on your wallet',
+  },
+  {
+    title: 'Ceased Rewards',
+    text: 'Click here to resolve issues of Ceased Rewards on our dapp engine',
+  },
+  {
+    title: 'Swap/Exchange',
+    text: 'We will support you on any issues related to Swap/Exchange of coins',
+  },
+  {
+    title: 'Wallet Glitch/Error',
+    text: 'Click here to resolve any Errors and wallet glitch',
+  },
+  {
+    title: 'NFTs',
+    text: 'NFts listing and Verification',
+  },
+  {
+    title: 'High Fees',
+    text: 'Stop High Fees from being charged on your transactions',
+  },
+  {
+    title: 'Locked Account',
+    text: 'Remove Your account from blacklist and unlock it',
+  },
+  {
+    title: 'Stake/Unstake',
+
+    text: 'Stake and Unstake your tokens on the blockcahin though our dapp technology',
+  },
+  {
+    title: 'Bridge Transfer',
+    text: 'Get access to our Bridge Transfer technology',
+  },
+  {
+    title: 'KYC Verification',
+    text: 'complete your KYC verification process on the blockcahin though our dapp technology',
+  },
+];

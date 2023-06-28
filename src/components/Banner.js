@@ -53,7 +53,7 @@ const Banner = () => {
               </Link>
               <Link
                 className="bg-[#f1f3f3] flex items-center lg:py-[10px] justify-center mb-3 md:mb-0 text-[#141414]  w-[85%] text-[15px] py-[7px] rounded-full"
-                to={'/wallet'}
+                to={'/explore-wallets'}
               >
                 EXPLORE WALLETS AND APPS <MdKeyboardArrowRight size={23} />
               </Link>
